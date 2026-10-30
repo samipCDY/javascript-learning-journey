@@ -13,10 +13,10 @@ const calculatecube = function(number){
 }
 calculatecube(3)
 calculatecube(4)
-// calculatecube(3)
-// calculatecube
-// function calculatecube(number){
-// const answer = number * number * number;
-// console.log(`The final cube is ${answer}`);
-// return answer;
-// }
+
+const calculateDouble = (number)=>{
+    const result = number *2;
+    console.log(`the double arrow is ${result}`);
+    return result;
+}
+calculateDouble(8);
